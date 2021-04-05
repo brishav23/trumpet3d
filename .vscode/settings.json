@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.scpt": "jxa",
+        "*.jxa": "jxa",
+        "string.h": "c"
+    }
+}
