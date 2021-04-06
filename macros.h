@@ -20,6 +20,6 @@
 #define LSUB1 (sin(p) * cos(t) * y * fabs(y))
 #define LSUB2 (sin(t) * y * fabs(y))
 #define LSUB3 (cos(p) * sign(y))
-#define LIGHT ( ( sqrt(2) * fabs(LSUB1 + LSUB2 - LSUB3) ) / ( 2 * sqrt(y * y * y * y + 1) ) )
+#define LIGHT ( ( sqrt(2) * (LSUB1 + LSUB2 - LSUB3) ) / ( 2 * sqrt(y * y * y * y + 1) ) )
 
 #endif
