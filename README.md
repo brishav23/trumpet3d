@@ -10,6 +10,10 @@ general understanding of 3d projections, vector interactions, and matrix transfo
 
 ## The Process
 
+### Parameterizing the surface
+
 The first thing I did was parameterize the surface of Torricelli's Trumpet, which is the graph of f(x) = 1/x rotated around the x-axis.
-For this project, I used the y-axis as the rotation axis and parameterized the surface
+For this project, I used y as the independent variable (and the y-axis as the rotation axis) and parameterized the surface
 using x = (1/y) * sin(theta), y = y, and z = (1/y) * cos(theta).
+
+This resulted in the orientation with the y-axis being the horizontal axis, the x-axis being  the vertical axis, and the z-axis moving away from the "viewer".
